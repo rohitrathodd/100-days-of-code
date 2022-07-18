@@ -8,5 +8,11 @@
 * [Resources](resources.md)
 
 
-💌 [Visit My Portfolio Rohit Rathod](https://rohitrathodd.github.io/)
+## Connect with me
+
+* [Twitter | Rohit Rathod - rohitrathodd](https://twitter.com/rohitrathodd/)
+* [Medium | Rohit Rathod - rohitrathodd](https://rohitrathodd.medium.com)
+* [dev.to | Rohit Rathod - rohitrathodd](https://dev.to/rohitrathodd/)
+
+💌 [Visit My Portfolio, Rohit Rathod - rohitrathodd](https://rohitrathodd.github.io/)
 
