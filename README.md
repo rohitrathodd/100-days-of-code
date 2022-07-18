@@ -4,7 +4,7 @@
 
 ## Contents
 
-* [Log - click here to see my progress](progress.md)
+* [Progress - click here to see my progress](progress.md)
 * [Resources](resources.md)
 
 
