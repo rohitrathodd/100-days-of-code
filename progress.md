@@ -1,28 +1,28 @@
 # 100 Days Of Code - Progress
 
-Jorney Started at July 11, 2022
+## Jorney Started at July 11, 2022
 
-### Day 0: July 11, 2022 
+## Day 0: July 11, 2022 
 
 **Today's Progress**: Learned Bitwise operator and there use in programming language.
 
 
-### Day 1: July 12, 2022
+## Day 1: July 12, 2022
 
 **Today's Progress**: Learned Classes and objects in java.
 
 
-### Day 2: July 13, 2022
+## Day 2: July 13, 2022
 
 **Today's Progress**: Learned inheritance concept in java.
 
 
-### Day 3: July 14, 2022
+## Day 3: July 14, 2022
 
 **Today's Progress**: Learned super() and this() call in java. 
 
 
-### Day 4: july 15, 2022
+## Day 4: july 15, 2022
 
 **Today's Progress**: function/ methods in java. Arryays...
 
