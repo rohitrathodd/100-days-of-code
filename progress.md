@@ -47,6 +47,8 @@ JULY 11, 2022
 1. [bubble Sort](https://github.com/rohitrathodd/Java-DS/blob/master/sorting/BubbleSort.java)
 2. [selection sort](https://github.com/rohitrathodd/Java-DS/blob/master/sorting/SelectionSortbyMe.java)
 3. [insertion sort](https://github.com/rohitrathodd/Java-DS/blob/master/sorting/InsertionSort.java)
+4. [Cyclic Sort](https://github.com/rohitrathodd/Java-DS/bolb/master/sorting/CyclicSort.java)
+
 
 #
 
