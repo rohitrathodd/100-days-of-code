@@ -55,6 +55,16 @@ JULY 11, 2022
 ### Day 7: july 18, 2022
 **Today's Progress**:
 
+### Day 9: july 19, 2022
+
+### Day 10: july 20, 2022
+
+### Day 11: july 21, 2022
+
+### Day 12: july 22, 2022
+
+
+### Day 13: july 23, 2022
 
 
 
