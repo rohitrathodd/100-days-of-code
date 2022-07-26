@@ -105,9 +105,13 @@ public class NestedClassExample {
 
          OuterClass2 outerClass2 = new OuterClass2();
 
+//         OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+         OuterClass2.InnerClass outInnerClass2 = outerClass2.new InnerClass();
+         OuterClass2.InnerClass hello = outerClass2.new InnerClass();
+//         OuterClass2.InnerClass outInnerClass22= new OuterClass2().InnerClass(); this is an error
          System.out.println("Capital OuterClass2.getOuterStaticInt()"+OuterClass2.getOuterStaticInt());
          System.out.println("small outerClass2.getOuterint()"+outerClass2.getOuterint());
          System.out.println("outerClass2.createInnerClass().getInnerInt()"+outerClass2.createInnerClass().getInnerInt());
-
+         System.out.println();
      }
 }
