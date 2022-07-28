@@ -2,6 +2,8 @@ package _16;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -38,18 +40,33 @@ public class Main {
         name.replace(2,8,"t");
         System.out.println(name);
 
-        String n = "the";
+        String n = "b";
         char helo = 't';
-        String h= new String("t");
+        String h= new String("a");
         if(n.charAt(0)==h.charAt(0)){
             System.out.println("equals");
         }else{
             System.out.println("not equals");
         }
+        int value = n.indexOf('h');
+        System.out.println("index :"+value);
+        int comparison = n.compareTo(h);
+        System.out.println("cmparison:"+comparison);
         System.out.println((int)helo);
         System.out.println((int)n.charAt(0));
         System.out.println(Arrays.toString(n.toCharArray()));
         System.out.println(String.valueOf(8));
+
+        System.out.println(list.toString());
+        System.out.println(Arrays.toString(list.toArray()));
+        System.out.println(list.toArray());
+        System.out.println(list);
+
+        Iterator<Integer> i = list.iterator();
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
+
 
     }
 }
