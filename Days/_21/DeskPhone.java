@@ -43,4 +43,14 @@ public class DeskPhone implements ITelephone{
     public boolean isRinging() {
         return isRinging;
     }
+
+    public void print(){
+        System.out.println("printing in deskphone:");
+    }
+
+    @Override
+    public String toString(){
+        return "DeskPhone{"+"myNumber="+myNumber+", isRinging"+isRinging+"}";
+    }
+
 }

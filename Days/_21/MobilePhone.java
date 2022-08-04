@@ -1,5 +1,4 @@
 package _21;
-
 public class MobilePhone implements ITelephone{
 
     private int myNumber;
@@ -49,4 +48,21 @@ public class MobilePhone implements ITelephone{
     public boolean isRinging() {
         return isRinging;
     }
+
+    public int calculator(int a, int b){
+        return a+b;
+    }
+
+
+    @Override
+    public String toString() {
+        return "MobilePhone{" +
+                "myNumber=" + myNumber +
+                ", isRinging=" + isRinging +
+                ", isOn=" + isOn +
+                '}';
+    }
+
+
 }
+
