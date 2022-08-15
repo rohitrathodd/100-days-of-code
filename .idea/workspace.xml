@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a049ce5-6fa4-4b8f-90d6-a6e694d184e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Days/Days.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Days/_11/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Days/_11/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Days/_11/Vehical.java" beforeDir="false" afterPath="$PROJECT_DIR$/Days/_11/Vehical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Days/_17/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/Days/_17/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +12,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
