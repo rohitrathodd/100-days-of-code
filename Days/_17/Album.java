@@ -38,5 +38,6 @@ public class Album {
             playList.add(this.songs.get(index));
             return true;
         }
+        return false;
     }
 }

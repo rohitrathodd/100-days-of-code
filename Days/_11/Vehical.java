@@ -19,7 +19,7 @@ public class Vehical {
 
     }
 
-    public void move(int velocity, int direction){
+    private void move(int velocity, int direction){
         currentVelocity=velocity;
         currentDirection=direction;
 
