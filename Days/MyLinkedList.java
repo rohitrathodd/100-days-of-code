@@ -20,31 +20,45 @@ public class MyLinkedList implements NodeList{
             return true;
         }
 
-        ListItem curretItem = this.root;
+        ListItem currentItem = this.root;
 
-        while(curretItem!=null){
-            int comparison = (curretItem.compareTo(newItem));
+        while(currentItem!=null){
+            int comparison = (currentItem.compareTo(newItem));
 
             if(comparison<0){
               // newitem is greater, move right
-              if(curretItem.next() !=null){
-                  curretItem=curretItem.next();
+              if(currentItem.next() !=null){
+                  currentItem=currentItem.next();
               }
               else{
-                  curretItem.setNext(newItem);
-                  newItem.setPrevious(curretItem);
+                  currentItem.setNext(newItem);
+                  newItem.setPrevious(currentItem);
                   return true;
               }
             }else if(comparison>0){
                 // newItem is less,
 
-                if(curretItem.previous()!=null){
-                    curretItem.previous().setNext(newItem);
-                    
+                if(currentItem.previous()!=null){
+                    currentItem.previous().setNext(newItem);
+                    newItem.setPrevious(currentItem.previous());
+                    newItem.setNext(currentItem);
+                    currentItem.setPrevious(newItem);
+                    return true;
+                }else{
+                    this.root.setPrevious(newItem);
+                    newItem.setNext(this.root);
+                     this.root=newItem;
+                     return true;
                 }
+            }
+            else{
+                System.out.println(newItem.getValue()+" is already present, not added");
+                return false;
             }
 
         }
+
+        return false;
     }
 
     @Override
