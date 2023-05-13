@@ -1,8 +1,7 @@
+package _11;
 public class Vehical {
-
     private String name;
     private String size;
-
     private int currentVelocity;
     private int currentDirection;
     public Vehical(String name, String size) {
@@ -19,7 +18,7 @@ public class Vehical {
 
     }
 
-    private void move(int velocity, int direction){
+    protected void move(int velocity, int direction){
         currentVelocity=velocity;
         currentDirection=direction;
 

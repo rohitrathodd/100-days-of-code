@@ -1,5 +1,4 @@
 package MyLinked;
-
 public abstract class MyList {
     protected int value;
     protected MyList rightLink = null;
@@ -13,6 +12,7 @@ public abstract class MyList {
     public abstract MyList setNext(MyList newItem);
     public abstract MyList previous();
     public abstract MyList setPrevious(MyList newItem);
+    public abstract int compareTo(MyList newItem);
 
     public int getValue(){
         return value;

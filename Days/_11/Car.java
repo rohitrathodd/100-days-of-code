@@ -1,3 +1,4 @@
+package _11;
 public class Car extends Vehical{
     private int doors;
     private int wheels;
@@ -8,7 +9,6 @@ public class Car extends Vehical{
 
     public Car(String name,String size, int wheels, int doors, int gears, boolean isManual){
         super(name,size);
-
         this.wheels=wheels;
         this.doors=doors;
         this.gears=gears;

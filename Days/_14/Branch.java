@@ -1,13 +1,16 @@
 package _14;
 
 import java.util.ArrayList;
-
+import java.util.LinkedList;
+import java.util.List;
 public class Branch {
 
     private String name;
-    private ArrayList<Customer> customer;
+    private List<Customer> customer; // private ArrayList<Customer> customer;
 
-    public ArrayList<Customer> getCustomer() {
+    // private Customer[] customers = new Customer[5];
+
+    public List<Customer> getCustomer() {
         return customer;
     }
 

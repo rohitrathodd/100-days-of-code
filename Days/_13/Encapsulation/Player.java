@@ -20,6 +20,7 @@ public class Player {
         if(this.health<=0){
             System.out.println("player out");
         }
+
     }
 
     public int getHealth(){

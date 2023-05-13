@@ -31,8 +31,7 @@ public class MyLinkedList implements NodeList{
                   currentItem=currentItem.next();
               }
               else{
-                  currentItem.setNext(newItem);
-                  newItem.setPrevious(currentItem);
+                  currentItem.setNext(newItem).setPrevious(currentItem);
                   return true;
               }
             }else if(comparison>0){
@@ -63,12 +62,24 @@ public class MyLinkedList implements NodeList{
 
     @Override
     public boolean removeItem(ListItem item) {
-        return false;
+
+        if(item !=null){
+            System.out.println("deleting item" +item.getValue());
+
+        }
+        return true;
     }
 
     @Override
     public void traverse(ListItem root) {
-
+        if(root==null){
+            System.out.println("list is empty");
+        }else {
+            while (root != null) {
+                System.out.println(root.getValue());
+                root = root.next();
+            }
+        }
     }
 }
 
